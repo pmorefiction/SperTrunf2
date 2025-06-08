@@ -14,3 +14,9 @@ int main() {
     // Cálculo do PIB per capita
     float pib_per_capita1 = (pib1 * 1000000000) / populacao1;
     float pib_per_capita2 = (pib2 * 1000000000) / populacao2;
+
+    printf("\n--- Cidade 1 ---\n");
+    printf("Codigo: %s\nNome: %s\nPopulacao: %d\nArea: %.2f km2\nPIB: %.2f bilhoes\nPontos Turisticos: %d\n",
+           codigo1, nome1, populacao1, area1, pib1, pontos1);
+    printf("Densidade Populacional: %.4f hab/km2\n", densidade1);
+    printf("PIB per capita: R$ %.2f\n", pib_per_capita1);
