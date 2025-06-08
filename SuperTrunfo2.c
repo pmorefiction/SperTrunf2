@@ -20,3 +20,12 @@ int main() {
            codigo1, nome1, populacao1, area1, pib1, pontos1);
     printf("Densidade Populacional: %.4f hab/km2\n", densidade1);
     printf("PIB per capita: R$ %.2f\n", pib_per_capita1);
+
+    printf("\n--- Cidade 2 ---\n");
+    printf("Codigo: %s\nNome: %s\nPopulacao: %d\nArea: %.2f km2\nPIB: %.2f bilhoes\nPontos Turisticos: %d\n",
+           codigo2, nome2, populacao2, area2, pib2, pontos2);
+    printf("Densidade Populacional: %.4f hab/km2\n", densidade2);
+    printf("PIB per capita: R$ %.2f\n", pib_per_capita2);
+
+    return 0;
+}
